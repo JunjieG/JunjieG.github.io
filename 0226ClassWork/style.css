@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+}
+nav {
+    padding: 20px 10px 10px 20px;
+    background: red;
+}
+
+nav a {
+    padding: 20px 10px 10px 20px;
+    font-size: 35px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    transition: all ease-in-out 50ms;
+}
+
+nav a:hover{
+    font-size: 45px;
+    padding: 30px 20px 20px 30px;
+    transition: all ease-in-out 50ms;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.charDescription { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.charImg {
+    width: 700px;
+    height: 500px;
+}
+
+#welcomeText {
+    color: red;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#homeImg {
+    margin-top: 30px;
+    width: 800px;
+    height: 550px;
+}
+
+#homeBt {
+    margin-left: 35px;
+    width: 100px;
+    height: 100px;
+}
