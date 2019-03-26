@@ -7,6 +7,8 @@ nav {
     text-align: center;
     background-color: cornflowerblue;
     width: 100%;
+    top: 0;
+    left: 0;
 }
 
 nav ul {
@@ -65,7 +67,7 @@ div img {
 
 .PokemonR img {
     float: right;
-    magin-left: 30px;
+    margin-left: 30px;
 }
 
 div h2 {

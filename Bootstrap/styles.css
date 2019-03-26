@@ -1,0 +1,54 @@
+.jumbotron {
+    height: 60vh;
+    position: relative;
+}
+
+#jumbotronSR {
+    background: url(https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/12/6/0/FN_NYC-Pizza-Speedy-Romeo_s4x3.jpg.rend.hgtvcom.966.725.suffix/1512577455161.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#jumbotronM {
+    background: url(https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/12/6/0/FN_nyc-pizza-martina_s4x3.jpg.rend.hgtvcom.966.725.suffix/1512577460198.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#jumbotronDF {
+    background: url(https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/8/20/0/CCEDG101_Di-Fara-pizza-recipe_s4x3.jpg.rend.hgtvcom.966.725.suffix/1377643637501.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.buttomJumbotron {
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+.display-4 {
+    color: white;
+}
+
+.lead {
+    color: white;
+}
+
+.menuImg {
+    display: block;
+    width: 100%;
+}
+
+#menu h1 {
+    padding: 100px 0 100px 0;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+#menu p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
