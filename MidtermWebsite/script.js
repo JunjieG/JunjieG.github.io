@@ -62,13 +62,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("3383");
       $("#fstPlcMS").text("Bite/Crunch");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Houndoom.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/houndoom.png");
       $("#sndPlcN").text("Houndoom");
       $("#sndPlcMaxCP").text("2635");
       $("#sndPlcMS").text("Snarl/Foul Play");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/houndoom/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Absol.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/absol.png");
       $("#trdPlcN").text("Absol");
       $("#trdPlcMaxCP").text("2526");
       $("#trdPlcMS").text("Snarl/Dark Pulse");
@@ -87,13 +87,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("3375");
       $("#fstPlcMS").text("Dragon Tail/Outrage");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Latios.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/latios.png");
       $("#sndPlcN").text("Latios");
       $("#sndPlcMaxCP").text("3644");
       $("#sndPlcMS").text("Dragon Breath/Dragon Claw");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/latios/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Dragonite.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/dragonite.png");
       $("#trdPlcN").text("Dragonite");
       $("#trdPlcMaxCP").text("3792");
       $("#trdPlcMS").text("Dragon Tail/Hurricane");
@@ -112,13 +112,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("3024");
       $("#fstPlcMS").text("Thunder Shock/Wild Charge");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Zapdos.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/zapdos.png");
       $("#sndPlcN").text("Zapdos");
       $("#sndPlcMaxCP").text("3527");
       $("#sndPlcMS").text("Thunder Shock/Thunder");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/zapdos/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Jolteon.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/jolteon.png");
       $("#trdPlcN").text("Jolteon");
       $("#trdPlcMaxCP").text("2888");
       $("#trdPlcMS").text("Thunder Shock/Thunder");
@@ -137,13 +137,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("2687");
       $("#fstPlcMS").text("Confusion/Dazzling Gleam");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Granbull.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/granbull.png");
       $("#sndPlcN").text("Granbull");
       $("#sndPlcMaxCP").text("2552");
       $("#sndPlcMS").text("Snarl/Close Combat");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/granbull/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Clefable.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/clefable.png");
       $("#trdPlcN").text("Clefable");
       $("#trdPlcMaxCP").text("2437");
       $("#trdPlcMS").text("Pound/Moonblast");
@@ -162,13 +162,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("2651");
       $("#fstPlcMS").text("Counter/Dynamic Punch");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Heracross.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/heracross.png");
       $("#sndPlcN").text("Heracross");
       $("#sndPlcMaxCP").text("3101");
       $("#sndPlcMS").text("Counter/Close Combat");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/heracross/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Blaziken.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/blaziken.png");
       $("#trdPlcN").text("Blaziken");
       $("#trdPlcMaxCP").text("2631");
       $("#trdPlcMS").text("Counter/Stone Edge");
@@ -193,7 +193,7 @@ $(document).ready(function () {
       $("#sndPlcMS").text("Extrasensory/Brave Bird");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/ho-oh/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Entei.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/entei.png");
       $("#trdPlcN").text("Entei");
       $("#trdPlcMaxCP").text("3473");
       $("#trdPlcMS").text("Fire Spin/Overheat");
@@ -212,13 +212,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("2310");
       $("#fstPlcMS").text("Snarl/Dark Pulse");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Rayquaza.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/rayquaza.png");
       $("#sndPlcN").text("Rayquaza");
       $("#sndPlcMaxCP").text("4354");
       $("#sndPlcMS").text("Dragon Tail/Aerial Ace");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/rayquaza/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Salamence.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/salamence.png");
       $("#trdPlcN").text("Salamence");
       $("#trdPlcMaxCP").text("3532");
       $("#trdPlcMS").text("Dragon Tail/Dragon Meteor");
@@ -237,13 +237,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("2477");
       $("#fstPlcMS").text("Shadow Claw/Shadow Ball");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Banette.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/banette.png");
       $("#sndPlcN").text("Banette");
       $("#sndPlcMaxCP").text("2073");
       $("#sndPlcMS").text("Shadow Claw/Shadow Ball");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/banette/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Haunter.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/haunter.png");
       $("#trdPlcN").text("Haunter");
       $("#trdPlcMaxCP").text("1963");
       $("#trdPlcMS").text("Lick/Sludge Bomb");
@@ -262,13 +262,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("2570");
       $("#fstPlcMS").text("Razor Leaf/Grass Knot");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Breloom.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/breloom.png");
       $("#sndPlcN").text("Breloom");
       $("#sndPlcMaxCP").text("2407");
       $("#sndPlcMS").text("Counter/Dynamic Punch");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/breloom/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Exeggutor.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/exeggutor.png");
       $("#trdPlcN").text("Exeggutor");
       $("#trdPlcMaxCP").text("3014");
       $("#trdPlcMS").text("Extrasensory/Psychic");
@@ -287,13 +287,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("3645");
       $("#fstPlcMS").text("Mud Shot/Earthquake");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Garchomp.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/garchomp.png");
       $("#sndPlcN").text("Garchomp");
       $("#sndPlcMaxCP").text("3327");
       $("#sndPlcMS").text("Dragon Tail/Earthquake");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/garchomp/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Rhyperior.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/rhyperior.png");
       $("#trdPlcN").text("Rhyperior");
       $("#trdPlcMaxCP").text("2785");
       $("#trdPlcMS").text("Mud Slap/Stone Edge");
@@ -312,13 +312,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("2899");
       $("#fstPlcMS").text("Powder Snow/Avalanche");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Jynx.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/jynx.png");
       $("#sndPlcN").text("Jynx");
       $("#sndPlcMaxCP").text("2555");
       $("#sndPlcMS").text("Confusion/Avalanche");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/jynx/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Articuno.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/articuno.png");
       $("#trdPlcN").text("Articuno");
       $("#trdPlcMaxCP").text("3051");
       $("#trdPlcMS").text("Frost Breath/Blizzard");
@@ -337,13 +337,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("2851");
       $("#fstPlcMS").text("Pound/Psychic");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Slaking.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/slaking.png");
       $("#sndPlcN").text("Slaking");
       $("#sndPlcMaxCP").text("4431");
       $("#sndPlcMS").text("Yawn/Hyper Beam");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/slaking/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Ursaring.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/ursaring.png");
       $("#trdPlcN").text("Ursaring");
       $("#trdPlcMaxCP").text("2945");
       $("#trdPlcMS").text("Counter/Hyper Beam");
@@ -362,13 +362,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("2570");
       $("#fstPlcMS").text("Razor Leaf/Grass Knot");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Gengar.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/gengar.png");
       $("#sndPlcN").text("Gengar");
       $("#sndPlcMaxCP").text("2878");
       $("#sndPlcMS").text("Shadow Claw/Sludge Bomb");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/gengar/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Muk.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/muk.png");
       $("#trdPlcN").text("Muk");
       $("#trdPlcMaxCP").text("2757");
       $("#trdPlcMS").text("Acid/Gunk Shot");
@@ -387,13 +387,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("3697");
       $("#fstPlcMS").text("Psycho Cut/Shadow Ball");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Deoxys.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/deoxys.png");
       $("#sndPlcN").text("Deoxys");
       $("#sndPlcMaxCP").text("3160");
       $("#sndPlcMS").text("Zen Headbutt/Hyper Beam");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/deoxys/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Alakazam.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/alakazam.png");
       $("#trdPlcN").text("Alakazam");
       $("#trdPlcMaxCP").text("3057");
       $("#trdPlcMS").text("Confusion/Future Sight");
@@ -413,13 +413,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("2846");
       $("#fstPlcMS").text("Smack Down/Rock Slide");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Tyranitar.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/tyranitar.png");
       $("#sndPlcN").text("Tyranitar");
       $("#sndPlcMaxCP").text("3834");
       $("#sndPlcMS").text("Bite/Stone Edge");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/tyranitar/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Armaldo.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/armaldo.png");
       $("#trdPlcN").text("Armaldo");
       $("#trdPlcMaxCP").text("2675");
       $("#trdPlcMS").text("Struggle Bug/Rock Blast");
@@ -438,13 +438,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("2600");
       $("#fstPlcMS").text("Bullet Punch/Meteor Mash");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Magneton.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/nagneton.png");
       $("#sndPlcN").text("Magneton");
       $("#sndPlcMaxCP").text("2485");
       $("#sndPlcMS").text("Thunder Shock/Zap Cannon");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/magneton/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Jirachi.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/jirachi.png");
       $("#trdPlcN").text("Jirachi");
       $("#trdPlcMaxCP").text("3090");
       $("#trdPlcMS").text("Charge Beam/Doom Desire");
@@ -463,13 +463,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("3645");
       $("#fstPlcMS").text("Waterfall/Hydro Pump");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Palkia.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/palkia.png");
       $("#sndPlcN").text("Palkia");
       $("#sndPlcMaxCP").text("4420");
       $("#sndPlcMS").text("Dragon Tail/Dragon Meteor");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/palkia/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Gyarados.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/gyarados.png");
       $("#trdPlcN").text("Gyarados");
       $("#trdPlcMaxCP").text("3391");
       $("#trdPlcMS").text("Waterfall/Hydro Pump");
