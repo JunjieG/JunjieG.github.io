@@ -37,13 +37,13 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("2600");
       $("#fstPlcMS").text("Bullet Punch/Iron Head");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/Pinsir.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/pinsir.png");
       $("#sndPlcN").text("Pinsir");
       $("#sndPlcMaxCP").text("2959");
       $("#sndPlcMS").text("Bug Bite/X-Scissor");
       $("#sndPlcWiki").attr("href", "https://rankedboost.com/pokemon-go/pinsir/");
       // Third Place
-      $("#trdPlc").attr("src", "images/PokemonImg/Heracross.png");
+      $("#trdPlc").attr("src", "images/PokemonImg/heracross.png");
       $("#trdPlcN").text("Heracross");
       $("#trdPlcMaxCP").text("3101");
       $("#trdPlcMS").text("Counter/Close Combat");
@@ -438,7 +438,7 @@ $(document).ready(function () {
       $("#fstPlcMinCP").text("2600");
       $("#fstPlcMS").text("Bullet Punch/Meteor Mash");
       // Second Place
-      $("#sndPlc").attr("src", "images/PokemonImg/nagneton.png");
+      $("#sndPlc").attr("src", "images/PokemonImg/magneton.png");
       $("#sndPlcN").text("Magneton");
       $("#sndPlcMaxCP").text("2485");
       $("#sndPlcMS").text("Thunder Shock/Zap Cannon");
