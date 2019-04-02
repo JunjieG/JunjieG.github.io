@@ -1,0 +1,220 @@
+<html>
+
+<head>
+	<link href="styles.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<script src="jquery.js"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<div id="preloader">
+		<div id="loading">
+			<div class="pokeball" id="normal"></div>
+			<div class="pokeball" id="great"></div>
+			<div class="pokeball" id="ultra"></div>
+			<div class="pokeball" id="master"></div>
+			<div class="pokeball" id="safari"></div>
+		</div>
+	</div>
+	<!-- Start background -->
+	<div id="startBackground">
+		<div id="infoText">
+			<h4>Scroll Down To Continue</h4>
+			<ul>
+				<li>
+					<<< </li> <li> >>>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<section>
+		<h1 id="start">Choose Your Type</h1>
+		<!-- Type Icons -->
+		<div id="typeMenu">
+			<div id="types">
+				<div class="menuIcon" id="bug">
+					<img src="images/Icons/bug.png" alt="bug">
+					<div class="middle">
+						<p>Bug</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="dark">
+					<img src="images/Icons/dark.png" alt="dark">
+					<div class="middle">
+						<p>Dark</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="dragon">
+					<img src="images/Icons/dragon.png" alt="dragon">
+					<div class="middle">
+						<p>Dragon</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="electric">
+					<img src="images/Icons/electric.png" alt="electric">
+					<div class="middle">
+						<p>Electric</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="fairy">
+					<img src="images/Icons/fairy.png" alt="fairy">
+					<div class="middle">
+						<p>Fairy</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="fighting">
+					<img src="images/Icons/fighting.png" alt="fighting">
+					<div class="middle">
+						<p>Fighting</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="fire">
+					<img src="images/Icons/fire.png" alt="fire">
+					<div class="middle">
+						<p>Fire</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="flying">
+					<img src="images/Icons/flying.png" alt="flying">
+					<div class="middle">
+						<p>Flying</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="ghost">
+					<img src="images/Icons/ghost.png" alt="ghost">
+					<div class="middle">
+						<p>Ghost</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="grass">
+					<img src="images/Icons/grass.png" alt="grass">
+					<div class="middle">
+						<p>Grass</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="ground">
+					<img src="images/Icons/ground.png" alt="ground">
+					<div class="middle">
+						<p>Ground</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="ice">
+					<img src="images/Icons/ice.png" alt="ice">
+					<div class="middle">
+						<p>Ice</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="normalType">
+					<img src="images/Icons/normal.png" alt="normal">
+					<div class="middle">
+						<p>Normal</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="poison">
+					<img src="images/Icons/poison.png" alt="poison">
+					<div class="middle">
+						<p>Poison</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="psychic">
+					<img src="images/Icons/psychic.png" alt="psychic">
+					<div class="middle">
+						<p>Psychic</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="rock">
+					<img src="images/Icons/rock.png" alt="rock">
+					<div class="middle">
+						<p>Rock</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="steel">
+					<img src="images/Icons/steel.png" alt="steel">
+					<div class="middle">
+						<p>Steel</p>
+					</div>
+				</div>
+				<div class="menuIcon" id="water">
+					<img src="images/Icons/water.png" alt="water">
+					<div class="middle">
+						<p>Water</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- First place -->
+		<h1 id="start" class="hide">Best Pokemon of this type:</h1>
+		<div class="fstplc">
+			<img id="fstplcimg" src="" alt="">
+			<div class="fstplcH">
+				<div class="fstPlcCol">
+					<h2>
+						Name:<br>
+						<span id="fstPlcN"></span><br><br>
+						Dex Number:<br>
+						<span id="fstPlcDN"></span><br><br>
+						Type:<br>
+						<span id="fstPlcT"></span><br>
+					</h2>
+				</div>
+				<div class="fstPlcCol">
+					<h2>
+						Max CP:<br>
+						<span id="fstPlcMaxCP"></span><br><br>
+						Min CP:<br>
+						<span id="fstPlcMinCP"></span><br><br>
+						Moveset:<br>
+						<span id="fstPlcMS"></span><br>
+					</h2>
+				</div>
+			</div>
+		</div>
+		<!-- 2nd and 3rd place cards -->
+		<h1 id="start" class="hide">Other Options:</h1>
+		<div class="wrapper">
+			<div class="card">
+				<div class="front">
+					<img id="sndPlc" src="" alt="">
+				</div>
+				<div class="back">
+					<div class="details">
+						<h2>
+							Name:<br>
+							<span id="sndPlcN"></span><br><br>
+							Max CP:<br>
+							<span id="sndPlcMaxCP"></span><br><br>
+							Moveset:<br>
+							<span id="sndPlcMS"></span><br>
+						</h2>
+						<div class="wikiLink">
+							<a id="sndPlcWiki" href=""><i class="fab fa-wikipedia-w"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="front">
+					<img id="trdPlc" src="" alt="">
+				</div>
+				<div class="back">
+					<div class="details">
+						<h2>
+							Name:<br>
+							<span id="trdPlcN">Test</span><br><br>
+							Max CP:<br>
+							<span id="trdPlcMaxCP">3500</span><br><br>
+							Moveset:<br>
+							<span id="trdPlcMS">3000</span><br>
+						</h2>
+						<div class="wikiLink">
+							<a id="trdPlcWiki" href=""><i class="fab fa-wikipedia-w"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>
