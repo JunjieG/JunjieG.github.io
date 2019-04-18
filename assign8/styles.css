@@ -14,3 +14,8 @@ body {
 #third {
     background-color: #2e5c6e;
 }
+
+#all {
+    width: 230px;
+    border: #b55d4c solid;
+}
