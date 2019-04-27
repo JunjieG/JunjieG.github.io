@@ -1,23 +1,271 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>My website</title>
-        <link rel="stylesheet" href="styles.css" type="text/css">
-    </head>
-    <body>
-        <div id="header">
-            <nav>
-                <a href="github.html">My Github</a>
-                <a id="home" href="index.html">Home</a>
-                <a href="resume.html">About Me</a>
-            </nav>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/responsive-tabs@1.6.3/css/responsive-tabs.css">
+    <title>Junjie Ge</title>
+</head>
+
+<body>
+    <div id="loaderBg">
+        <span id="loader">
+            <span id="loader-inner"></span>
+        </span>
+    </div>
+    <header id="Wlcm">
+        <video autoplay muted loop id="myVideo">
+            <source src="img/nycMontageAlt.mp4" type="video/mp4">
+        </video>
+        <div id="wlcmBox">
+            <div id="wlcmName">Junjie Ge</div>
+            <hr class="wlcmLine">
+            <div id="wlcmDscptn">I'm a <span id="wlcmTW"></span></div>
         </div>
-        <p class="headLine">Hi, this is my website</p>
-        <p class="subHeader">Here is a video of space cats</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/J7UwSVsiwzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="subHeader">I'm not sure what else to write, so</p>
-        <p class="subHeader">Thanks fo visiting my website!</p>
-        <img src="images/giphy.gif">
-    </body>
+        <a href="#me" class="scroll-down" address="true"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#me" class="sideNav"></a></li>
+            <li><a href="#skill" class="sideNav"></a></li>
+            <li><a href="#exp" class="sideNav"></a></li>
+            <li><a href="#proj" class="sideNav"></a></li>
+            <li><a href="#contact" class="sideNav"></a></li>
+        </ul>
+    </nav>
+    <section class="sctn" id="me">
+        <div class="content">
+            <h1>Who am I</h1>
+            <h2>Programmer, Web Developer, Designer, Student</h2>
+            <hr class="horizontalLine">
+            <img src="img/profile.png" alt="Avatar" id="profileImg">
+            <div id="myDetail">
+                <strong>Name:</strong>
+                <p>Junjie Ge</p>
+                <strong>Age:</strong>
+                <p>20 years</p>
+                <strong>Location:</strong>
+                <p>Downtown Brooklyn, NY, USA, Earth, Milky Way </p>
+            </div>
+        </div>
+    </section>
+    <section class="sctn sctnOdd" id="skill">
+        <div class="content">
+            <h1>Skills</h1>
+            <h2>"The mind once enlightened cannot again become dark."</h2>
+            <h2>- Thomas Paine</h2>
+            <hr class="horizontalLine">
+            <h3>Languages</h3>
+            <ul class="skills">
+                <div class="gridLeft">
+                    <li class="pct100">English</li>
+                    <li class="pct100">Chinese</li>
+                </div>
+                <div class="gridRight">
+                    <li class="pct75">German</li>
+                    <li class="pct25">French(Maybe)</li>
+                </div>
+            </ul>
+            <hr class="horizontalLine">
+            <h3>Programming Skills</h3>
+            <ul class="skills">
+                <div class="gridLeft">
+                    <li class="pct100">C++</li>
+                    <li class="pct100">Python</li>
+                    <li class="pct75">Java</li>
+                    <li class="pct75">OOP</li>
+                    <li class="pct75">HTML</li>
+                </div>
+                <div class="gridRight">
+                    <li class="pct75">CSS</li>
+                    <li class="pct75">JavaScript</li>
+                    <li class="pct50">Unity</li>
+                    <li class="pct25">MySQL</li>
+                </div>
+            </ul>
+            <hr class="horizontalLine">
+            <h3>Others</h3>
+            <ul class="skills">
+                <div class="gridLeft">
+                    <li class="pct100">Microsoft Office</li>
+                    <li class="pct100">Google Suite</li>
+                    <li class="pct100">Git</li>
+                    <li class="pct100">Windows</li>
+                    <li class="pct75">Mac</li>
+                </div>
+                <div class="gridright">
+                    <li class="pct75">VS Code</li>
+                    <li class="pct75">Command Line</li>
+                    <li class="pct75">Vim</li>
+                    <li class="pct50">Linux (Fedora)</li>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <section class="sctn" id="exp">
+        <div class="content">
+            <h1>Experiences</h1>
+            <h2>"Nothing ever becomes real 'til it is experienced."</h2>
+            <h2>- John Keats</h2>
+            <hr class="horizontalLine">
+            <h3>Education</h3>
+            <div class="exp-row">
+                <strong>New York University</strong>
+                <strong>GPA:</strong>
+                <p>3.8/4.0</p>
+                <strong>Honors:</strong>
+                <p>Deans List of 2018/2019</p>
+            </div>
+            <div class="exp-row">
+                <strong>Academy for Software Engineering</strong>
+                <strong>GPA:</strong>
+                <p>4.0/4.0</p>
+                <strong>Honors:</strong>
+                <p>Deans List of 2018/2019</p>
+            </div>
+            <h3>Jobs</h3>
+        </div>
+    </section>
+    <section class="sctn sctnOdd" id="proj">
+        <div class="content">
+            <h1>Projects</h1>
+            <h2>"Every Project is an opportunity to learnm to figure out problems and challenges, to invent and
+                reinvent."</h2>
+            <h2>- David Rockwell</h2>
+            <hr class="horizontalLine">
+            <div id="services-tabs">
+                <ul>
+                    <li><a href="#proj1">Pokemon Go Ranker</a></li>
+                    <li><a href="#proj2">Optimization</a></li>
+                </ul>
+                <br>
+                <div id="proj1" class="projTab">
+
+                    <div class="projContainer">
+                        <div>
+                            <img src="img/pkmProj2.PNG" alt="project 1">
+                        </div>
+                        <div>
+                            <div class="tabBg">
+                                <h2>01</h2>
+                                <h3>Pokemon Go best by type</h3>
+                                <p>
+                                    As a fairly new Pokemon Go player myself, I find it hard to choose the right Pokemon
+                                    for different circumstances.
+                                    I created this website to help me and others to pick the best Pokemon of a given
+                                    type.
+                                </p>
+                                <a class="btn" href="https://junjieg.github.io/midterm/" target="_blank">Try it out!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="proj2" class="projTab">
+
+                    <div class="projContainer">
+                        <div>
+                            <img src="r.jpg" alt="strategy">
+                        </div>
+                        <div>
+                            <div class="tabBg">
+                                <h2>02</h2>
+                                <h3>All Web Needs Optimization to rank </h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+                                    perferendis quod
+                                    debitis ab sed sapiente. Ducimus tempore, doloremque asperiores natus
+                                    reprehenderit dignissimos beatae molestias tenetur cupiditate architecto
+                                    culpa
+                                    quibusdam velit magnam sapiente accusantium, repellat earum!</p>
+                                <a class="btn" href="#" title="Get In Touch" role="button">Get In Touch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sctn" id="contact">
+        <div class="content">
+            <h1>Contact Me</h1>
+            <h2>"There is no key to open the heart of another - except curiosity."</h2>
+            <h2>- Stefan Molyneux</h2>
+            <hr class="horizontalLine">
+            <div id="social">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/junjie.e.ge" target="_blank">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/junjie_ge" target="_blank">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/junjie_ge/" target="_blank">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/JunjieG" target="_blank">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://steamcommunity.com/id/HaoXuanG/" target="_blank">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fab fa-steam"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="horizontalLine">
+            <div id="footNote">
+                <h2>Thank you for visiting my website!</h2>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/responsive-tabs@1.6.3/js/jquery.responsiveTabs.min.js"></script>
+
+</body>
+
 </html>
