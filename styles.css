@@ -255,6 +255,7 @@ nav a.active {
 .content h3 {
     color: #22A39f;
     font-size: 20px;
+    margin: 40px 0;
 }
 
 hr.horizontalLine {
@@ -273,18 +274,20 @@ hr.horizontalLine {
     background-color: #F5F4F6;
 }
 
+#abtMe {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
 #profileImg {
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     border: 5px solid lightgray;
     margin: 50px;
-}
-
-#myDetail {
-    position: relative;
-    top: 90px;
-    margin: auto;
-    display: inline-block;
-    text-align: left;
 }
 
 .skills {
@@ -342,6 +345,24 @@ hr.horizontalLine {
     width: 12.5%;
 }
 
+#expGrid {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-column-gap: 10%;
+    grid-row-gap: 30px;
+    text-align: left;
+}
+
+#expGrid p {
+    margin-top: 10px;
+}
+
+#expGrid span {
+    font-size: 15px;
+    color: #22A39f;
+}
+
+
 #services-tabs {
     margin-top: 20px;
 }
@@ -390,7 +411,7 @@ hr.horizontalLine {
 }
 
 .projTab .tabBg {
-    background: #fff;
+    background: #FFFFFF;
     height: 100%;
     padding: 59px 30px;
 }
@@ -432,6 +453,30 @@ hr.horizontalLine {
     color: #212226;
     border: 1px solid #fff;
     background-color: #fff;
+}
+
+.r-tabs .r-tabs-nav {
+    margin: 0;
+    padding: 0;
+}
+
+.r-tabs .r-tabs-tab {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+}
+
+.r-tabs .r-tabs-panel {
+    padding: 15px;
+    display: none;
+}
+
+.r-tabs .r-tabs-accordion-title {
+    display: none;
+}
+
+.r-tabs .r-tabs-panel.r-tabs-state-active {
+    display: block;
 }
 
 #contact {
@@ -588,7 +633,9 @@ hr.horizontalLine {
     .skills li.pct25:after {
         width: 22.5%;
     }
+}
 
+@media only screen and (max-width: 1300px) {
     .projContainer {
         display: grid;
         grid-template-columns: 100%;

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/responsive-tabs@1.6.3/css/responsive-tabs.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/responsive-tabs@1.6.3/css/responsive-tabs.css"> -->
     <title>Junjie Ge</title>
 </head>
 
@@ -24,7 +24,7 @@
     </div>
     <header id="Wlcm">
         <video autoplay muted loop id="myVideo">
-            <source src="img/nycMontageAlt.mp4" type="video/mp4">
+            <source src="img/nycMontage.mp4" type="video/mp4">
         </video>
         <div id="wlcmBox">
             <div id="wlcmName">Junjie Ge</div>
@@ -47,14 +47,20 @@
             <h1>Who am I</h1>
             <h2>Programmer, Web Developer, Designer, Student</h2>
             <hr class="horizontalLine">
-            <img src="img/profile.png" alt="Avatar" id="profileImg">
-            <div id="myDetail">
-                <strong>Name:</strong>
-                <p>Junjie Ge</p>
-                <strong>Age:</strong>
-                <p>20 years</p>
-                <strong>Location:</strong>
-                <p>Downtown Brooklyn, NY, USA, Earth, Milky Way </p>
+            <div id="abtMe">
+                <img src="img/profile.png" alt="Avatar" id="profileImg">
+                <div id="myDetail">
+                    <strong>Name:</strong>
+                    <p>Junjie Ge</p>
+                    <strong>Age:</strong>
+                    <p>20 years</p>
+                    <strong>Location:</strong>
+                    <p>Downtown Brooklyn, NY, USA, Earth, Milky Way </p>
+                </div>
+            </div>
+            <div style="width: 60%; margin: auto;">
+                <p>I am Junjie, I'm a current student at New York University Tandon School of Engineering. I love
+                    coding, gaming, and watching movies (especially horror movies).</p>
             </div>
         </div>
     </section>
@@ -118,21 +124,54 @@
             <h2>- John Keats</h2>
             <hr class="horizontalLine">
             <h3>Education</h3>
-            <div class="exp-row">
-                <strong>New York University</strong>
-                <strong>GPA:</strong>
-                <p>3.8/4.0</p>
-                <strong>Honors:</strong>
-                <p>Deans List of 2018/2019</p>
-            </div>
-            <div class="exp-row">
-                <strong>Academy for Software Engineering</strong>
-                <strong>GPA:</strong>
-                <p>4.0/4.0</p>
-                <strong>Honors:</strong>
-                <p>Deans List of 2018/2019</p>
+            <div id="expGrid">
+                <div class="expLeft">
+                    <strong>New York University</strong>
+                    <p>Summer 2017 - Present</p>
+                    <span><i class="fas fa-map-marker-alt"></i> &nbsp; Brooklyn, NY</span>
+                </div>
+                <div class="expRight">
+                    <strong>B.S. in Computer Science</strong>
+                    <p>I am currently a student at New York University Tandon School of Engineering and pursuing my
+                        Bachelor of Science in Computer Science and minoring in Math, Integraded Digital Media (IDM),
+                        and Cybersecurity. I am currently a sophomore student and will graduate around Summer 2021. </p>
+                </div>
+                <div class="expLeft">
+                    <strong>Academy for Software Engineering</strong>
+                    <p>April 2015 - Summer 2017</p>
+                    <span><i class="fas fa-map-marker-alt"></i> &nbsp; Union Square, Manhattan, NY</span>
+                </div>
+                <div class="expRight">
+                    <strong>High school</strong>
+                    <p>Academy for Software Engineering (AFSE) is the high school I went to after arriving in the US.
+                        Here I got some hands on experience in coding and some exposure in computer science theory. I
+                        went here for the last two years of my high school and graduated in summer 2017.</p>
+                </div>
             </div>
             <h3>Jobs</h3>
+            <div id="expGrid">
+                <div class="expLeft">
+                    <strong>Morgan Stanley</strong>
+                    <p>June 2016 - July 2016</p>
+                    <span><i class="fas fa-map-marker-alt"></i> &nbsp; Time Square, Manhattan, NY</span>
+                </div>
+                <div class="expRight">
+                    <strong>Summer Intern</strong>
+                    <p>I was offered a position at Morgan Stanley during the summer of 2016 as a high school tech
+                        intern. I worked with the technology division management team on various projects; Product
+                        Calendar, Run-book, Team's Website, to name but a few.</p>
+                </div>
+                <div class="expLeft">
+                    <strong>China Shipping</strong>
+                    <p>September 2013 - October 2013</p>
+                    <span><i class="fas fa-map-marker-alt"></i> &nbsp; Hamburg, Germany</span>
+                </div>
+                <div class="expRight">
+                    <strong>Internship</strong>
+                    <p>This is the first professional experience I have had. I worked with the tech team on some basic
+                        MS Excel documents.</p>
+                </div>
+            </div>
         </div>
     </section>
     <section class="sctn sctnOdd" id="proj">
@@ -173,19 +212,17 @@
 
                     <div class="projContainer">
                         <div>
-                            <img src="r.jpg" alt="strategy">
+                            <img src="img/schedulerProj.PNG" alt="strategy">
                         </div>
                         <div>
                             <div class="tabBg">
                                 <h2>02</h2>
-                                <h3>All Web Needs Optimization to rank </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
-                                    perferendis quod
-                                    debitis ab sed sapiente. Ducimus tempore, doloremque asperiores natus
-                                    reprehenderit dignissimos beatae molestias tenetur cupiditate architecto
-                                    culpa
-                                    quibusdam velit magnam sapiente accusantium, repellat earum!</p>
-                                <a class="btn" href="#" title="Get In Touch" role="button">Get In Touch</a>
+                                <h3>Scheduler (Abandoned)</h3>
+                                <p>
+                                    Every NYU student knows the pain of planning courses every semester using Albert. A
+                                    friend and I created an alternative planner tool to Albert using HTML5, CSS,
+                                    JavaScript (JQuery), MySQL, Node.js (express), and Python (web crawler). We have built the database and the front end website. However, we weren't able to successfully make a web crawler at that time thus the project is abandoned. (Picture is related but not our project)
+                                </p>
                             </div>
                         </div>
                     </div>
