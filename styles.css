@@ -402,12 +402,16 @@ hr.horizontalLine {
 .projTab {
     text-align: left;
     padding: 0;
+    background: #FFFFFF;
 }
 
 .projTab img {
+    position: relative;
     width: 100%;
-    height: 100%;
-    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: auto;
 }
 
 .projTab .tabBg {
@@ -638,8 +642,12 @@ hr.horizontalLine {
 @media only screen and (max-width: 1300px) {
     .projContainer {
         display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 50% auto;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+
+    .projContainer img {
+        display: none;
     }
 }
 
